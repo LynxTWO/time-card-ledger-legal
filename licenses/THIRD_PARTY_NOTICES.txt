@@ -18,13 +18,13 @@ generator and must be reviewed from the final iOS and Android dependency reports
 
 ## Generation summary
 
-- Lockfile SHA-256: `9211e6f912c7c4388960f66fe1d5d2c5620b0d26ba4cc942486831872c54aba0`
-- Installed production package locations traversed: 716
-- Unique production package name/version pairs: 662
-- Package name/version pairs with their own bundled notice text: 571
-- Package name/version pairs covered by one unambiguous same-repository license: 20
-- Total package name/version pairs with mapped notice text: 591
-- Package name/version pairs requiring license-text review: 71
+- Lockfile SHA-256: `82f38eaf15b82963c94a52bba91cf9bbaa78ac898ff22c2c2be393b6dcec1d47`
+- Installed production package locations traversed: 726
+- Unique production package name/version pairs: 666
+- Package name/version pairs with their own bundled notice text: 570
+- Package name/version pairs covered by one unambiguous same-repository license: 24
+- Total package name/version pairs with mapped notice text: 594
+- Package name/version pairs requiring license-text review: 72
 - Unique bundled notice texts after exact-byte deduplication: 278
 
 ## Release review required
@@ -36,53 +36,54 @@ before publication; the generator deliberately does not substitute a generic lic
 
 | Package | Declared license metadata | Source repository metadata | Why review remains | Installed locations |
 |---|---|---|---|---:|
-| `@expo/cli@55.0.33` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `@expo/cli@55.0.34` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `@expo/devcert@1.2.1` | MIT | `https://github.com/expo/devcert` | No locally installed sibling package supplies a reusable license text | 1 |
 | `@expo/dom-webview@55.0.6` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `@expo/log-box@55.0.12` | MIT | NOT DECLARED | Package metadata does not declare a source repository | 1 |
-| `@expo/metro-runtime@55.0.11` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `@expo/log-box@55.0.13` | MIT | NOT DECLARED | Package metadata does not declare a source repository | 1 |
+| `@expo/metro-runtime@55.0.12` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `@expo/plist@0.5.4` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `@expo/router-server@55.0.18` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `@expo/sdk-runtime-versions@1.0.0` | MIT | NOT DECLARED | Package metadata does not declare a source repository | 1 |
 | `@expo/ws-tunnel@1.0.6` | MIT | NOT DECLARED | Package metadata does not declare a source repository | 1 |
 | `@expo/xcpretty@4.4.4` | BSD-3-Clause | `https://github.com/expo/expo-cli` | No locally installed sibling package supplies a reusable license text | 1 |
-| `@react-native/debugger-frontend@0.83.6` | BSD-3-Clause | `https://github.com/facebook/react-native` | No locally installed sibling package supplies a reusable license text | 1 |
+| `@react-native/debugger-frontend@0.83.10` | BSD-3-Clause | `https://github.com/react/react-native` | No locally installed sibling package supplies a reusable license text | 1 |
+| `@react-native/debugger-frontend@0.83.6` | BSD-3-Clause | `https://github.com/react/react-native` | No locally installed sibling package supplies a reusable license text | 1 |
 | `babel-plugin-react-compiler@1.0.0` | MIT | `https://github.com/facebook/react` | Multiple same-repository license texts: [N084](#n084), [N233](#n233) | 1 |
-| `babel-preset-expo@55.0.23` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `babel-preset-expo@55.0.24` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `bplist-parser@0.3.1` | MIT | `https://github.com/nearinfinity/node-bplist-parser` | No locally installed sibling package supplies a reusable license text | 1 |
 | `bser@2.1.1` | Apache-2.0 | `https://github.com/facebook/watchman` | No locally installed sibling package supplies a reusable license text | 1 |
 | `client-only@0.0.1` | MIT | NOT DECLARED | Package metadata does not declare a source repository | 1 |
-| `expo-asset@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-constants@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-crypto@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-dev-client@55.0.36` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-dev-launcher@55.0.37` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-asset@55.0.18` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-constants@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-crypto@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-dev-client@55.0.37` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-dev-launcher@55.0.38` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-dev-menu-interface@55.0.2` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-dev-menu@55.0.31` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-document-picker@55.0.14` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-file-system@55.0.23` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-dev-menu@55.0.32` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-document-picker@55.0.15` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-file-system@55.0.24` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-font@55.0.8` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-glass-effect@55.0.11` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-image@55.0.11` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-json-utils@55.0.2` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-keep-awake@55.0.8` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-linking@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-localization@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-mail-composer@55.0.15` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-manifests@55.0.18` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-modules-autolinking@55.0.24` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-localization@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-mail-composer@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-manifests@55.0.19` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-modules-autolinking@55.0.25` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-modules-core@55.0.25` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-print@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-router@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-secure-store@55.0.15` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-print@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-router@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-secure-store@55.0.16` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-server@55.0.11` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-sharing@55.0.21` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-splash-screen@55.0.22` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-sqlite@55.0.17` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-sharing@55.0.22` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-splash-screen@55.0.23` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-sqlite@55.0.18` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-symbols@55.0.9` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo-system-ui@55.0.19` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo-system-ui@55.0.20` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `expo-updates-interface@55.1.6` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
-| `expo@55.0.27` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
+| `expo@55.0.28` | MIT | `https://github.com/expo/expo` | Multiple same-repository license texts: [N018](#n018), [N074](#n074), [N151](#n151), [N175](#n175), [N274](#n274) | 1 |
 | `fb-dotslash@0.5.8` | (MIT OR Apache-2.0) | `https://github.com/facebook/dotslash` | No locally installed sibling package supplies a reusable license text | 1 |
 | `fb-watchman@2.0.2` | Apache-2.0 | `https://github.com/facebook/watchman` | No locally installed sibling package supplies a reusable license text | 1 |
 | `imurmurhash@0.1.4` | MIT | `https://github.com/jensyt/imurmurhash-js` | No locally installed sibling package supplies a reusable license text | 1 |
@@ -124,18 +125,22 @@ text exists; ambiguous repositories stay in **Release review required**.
 | `@radix-ui/react-use-callback-ref@1.1.1` | `https://github.com/radix-ui/primitives` | [N010](#n010) | `@radix-ui/primitive@1.1.3`, `@radix-ui/react-collection@1.1.7`, `@radix-ui/react-dialog@1.1.15`, `@radix-ui/react-dismissable-layer@1.1.11`, `@radix-ui/react-focus-guards@1.1.3`, `@radix-ui/react-focus-scope@1.1.7`, `@radix-ui/react-portal@1.1.9`, `@radix-ui/react-presence@1.1.5`, `@radix-ui/react-primitive@2.1.3`, `@radix-ui/react-roving-focus@1.1.11`, `@radix-ui/react-slot@1.2.3`, `@radix-ui/react-slot@1.2.4`, `@radix-ui/react-tabs@1.1.13`, `@radix-ui/react-use-controllable-state@1.2.2`, `@radix-ui/react-use-effect-event@0.0.2` |
 | `@radix-ui/react-use-escape-keydown@1.1.1` | `https://github.com/radix-ui/primitives` | [N010](#n010) | `@radix-ui/primitive@1.1.3`, `@radix-ui/react-collection@1.1.7`, `@radix-ui/react-dialog@1.1.15`, `@radix-ui/react-dismissable-layer@1.1.11`, `@radix-ui/react-focus-guards@1.1.3`, `@radix-ui/react-focus-scope@1.1.7`, `@radix-ui/react-portal@1.1.9`, `@radix-ui/react-presence@1.1.5`, `@radix-ui/react-primitive@2.1.3`, `@radix-ui/react-roving-focus@1.1.11`, `@radix-ui/react-slot@1.2.3`, `@radix-ui/react-slot@1.2.4`, `@radix-ui/react-tabs@1.1.13`, `@radix-ui/react-use-controllable-state@1.2.2`, `@radix-ui/react-use-effect-event@0.0.2` |
 | `@radix-ui/react-use-layout-effect@1.1.1` | `https://github.com/radix-ui/primitives` | [N010](#n010) | `@radix-ui/primitive@1.1.3`, `@radix-ui/react-collection@1.1.7`, `@radix-ui/react-dialog@1.1.15`, `@radix-ui/react-dismissable-layer@1.1.11`, `@radix-ui/react-focus-guards@1.1.3`, `@radix-ui/react-focus-scope@1.1.7`, `@radix-ui/react-portal@1.1.9`, `@radix-ui/react-presence@1.1.5`, `@radix-ui/react-primitive@2.1.3`, `@radix-ui/react-roving-focus@1.1.11`, `@radix-ui/react-slot@1.2.3`, `@radix-ui/react-slot@1.2.4`, `@radix-ui/react-tabs@1.1.13`, `@radix-ui/react-use-controllable-state@1.2.2`, `@radix-ui/react-use-effect-event@0.0.2` |
-| `@react-native/assets-registry@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/babel-plugin-codegen@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/babel-preset@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/codegen@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/community-cli-plugin@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/debugger-shell@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/dev-middleware@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/gradle-plugin@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/js-polyfills@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/normalize-colors@0.74.89` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/normalize-colors@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
-| `@react-native/virtualized-lists@0.83.6` | `https://github.com/facebook/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/assets-registry@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/babel-plugin-codegen@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/babel-preset@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/codegen@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/codegen@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/community-cli-plugin@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/debugger-shell@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/debugger-shell@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/dev-middleware@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/dev-middleware@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/gradle-plugin@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/js-polyfills@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/normalize-colors@0.74.89` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/normalize-colors@0.83.10` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/normalize-colors@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
+| `@react-native/virtualized-lists@0.83.6` | `https://github.com/react/react-native` | [N233](#n233) | `react-native@0.83.6` |
 | `hermes-compiler@0.14.1` | `https://github.com/facebook/hermes` | [N233](#n233) | `babel-plugin-syntax-hermes-parser@0.32.0`, `babel-plugin-syntax-hermes-parser@0.32.1`, `hermes-estree@0.32.0`, `hermes-estree@0.32.1`, `hermes-estree@0.35.0`, `hermes-parser@0.32.0`, `hermes-parser@0.32.1`, `hermes-parser@0.35.0` |
 
 ## Package inventory
@@ -246,33 +251,32 @@ text exists; ambiguous repositories stay in **Release review required**.
 | `@expo-google-fonts/inter@0.4.2` | MIT AND OFL-1.1 | [N096](#n096), [N271](#n271) |
 | `@expo-google-fonts/jetbrains-mono@0.4.1` | MIT AND OFL-1.1 | [N195](#n195), [N271](#n271) |
 | `@expo-google-fonts/material-symbols@0.4.38` | MIT AND Apache-2.0 | [N091](#n091), [N271](#n271) |
-| `@expo/cli@55.0.33` | MIT | **REVIEW REQUIRED** |
+| `@expo/cli@55.0.34` | MIT | **REVIEW REQUIRED** |
 | `@expo/code-signing-certificates@0.0.6` | MIT | [N066](#n066) |
-| `@expo/config-plugins@55.0.10` | MIT | [N018](#n018) |
-| `@expo/config-types@55.0.5` | MIT | [N151](#n151) |
-| `@expo/config@55.0.18` | MIT | [N018](#n018) |
+| `@expo/config-plugins@55.0.11` | MIT | [N018](#n018) |
+| `@expo/config-types@55.0.6` | MIT | [N151](#n151) |
+| `@expo/config@55.0.19` | MIT | [N018](#n018) |
 | `@expo/devcert@1.2.1` | MIT | **REVIEW REQUIRED** |
 | `@expo/devtools@55.0.3` | MIT | [N018](#n018) |
 | `@expo/dom-webview@55.0.6` | MIT | **REVIEW REQUIRED** |
-| `@expo/env@2.1.2` | MIT | [N175](#n175) |
-| `@expo/env@2.4.1` | MIT | [N175](#n175) |
-| `@expo/fingerprint@0.16.7` | MIT | [N018](#n018) |
-| `@expo/image-utils@0.8.14` | MIT | [N274](#n274) |
+| `@expo/env@2.1.3` | MIT | [N175](#n175) |
+| `@expo/fingerprint@0.16.8` | MIT | [N018](#n018) |
+| `@expo/image-utils@0.8.15` | MIT | [N274](#n274) |
 | `@expo/json-file@10.0.16` | MIT | [N018](#n018) |
 | `@expo/json-file@10.2.0` | MIT | [N018](#n018) |
 | `@expo/json-file@11.0.0` | MIT | [N018](#n018) |
-| `@expo/local-build-cache-provider@55.0.14` | MIT | [N018](#n018) |
-| `@expo/log-box@55.0.12` | MIT | **REVIEW REQUIRED** |
-| `@expo/metro-config@55.0.24` | MIT | [N018](#n018) |
-| `@expo/metro-runtime@55.0.11` | MIT | **REVIEW REQUIRED** |
+| `@expo/local-build-cache-provider@55.0.15` | MIT | [N018](#n018) |
+| `@expo/log-box@55.0.13` | MIT | **REVIEW REQUIRED** |
+| `@expo/metro-config@55.0.25` | MIT | [N018](#n018) |
+| `@expo/metro-runtime@55.0.12` | MIT | **REVIEW REQUIRED** |
 | `@expo/metro@55.1.1` | MIT | [N007](#n007) |
 | `@expo/osascript@2.7.0` | MIT | [N274](#n274) |
 | `@expo/package-manager@1.13.0` | MIT | [N018](#n018) |
 | `@expo/plist@0.5.4` | MIT | **REVIEW REQUIRED** |
-| `@expo/prebuild-config@55.0.19` | MIT | [N018](#n018) |
-| `@expo/require-utils@55.0.5` | MIT | [N074](#n074) |
+| `@expo/prebuild-config@55.0.20` | MIT | [N018](#n018) |
+| `@expo/require-utils@55.0.6` | MIT | [N074](#n074) |
 | `@expo/router-server@55.0.18` | MIT | **REVIEW REQUIRED** |
-| `@expo/schema-utils@55.0.4` | MIT | [N074](#n074) |
+| `@expo/schema-utils@55.0.5` | MIT | [N074](#n074) |
 | `@expo/sdk-runtime-versions@1.0.0` | MIT | **REVIEW REQUIRED** |
 | `@expo/spawn-async@1.8.0` | MIT | [N127](#n127) |
 | `@expo/sudo-prompt@9.3.2` | MIT | [N023](#n023) |
@@ -318,16 +322,21 @@ text exists; ambiguous repositories stay in **Release review required**.
 | `@radix-ui/react-use-layout-effect@1.1.1` | MIT | [N010](#n010) _(same repository)_ |
 | `@react-native-async-storage/async-storage@2.2.0` | MIT | [N028](#n028) |
 | `@react-native/assets-registry@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
-| `@react-native/babel-plugin-codegen@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
-| `@react-native/babel-preset@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/babel-plugin-codegen@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/babel-preset@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/codegen@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/codegen@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/community-cli-plugin@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/debugger-frontend@0.83.10` | BSD-3-Clause | [N205](#n205) _(bundled component notice only)_<br>**OWN LICENSE REVIEW REQUIRED** |
 | `@react-native/debugger-frontend@0.83.6` | BSD-3-Clause | [N205](#n205) _(bundled component notice only)_<br>**OWN LICENSE REVIEW REQUIRED** |
+| `@react-native/debugger-shell@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/debugger-shell@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/dev-middleware@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/dev-middleware@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/gradle-plugin@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/js-polyfills@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/normalize-colors@0.74.89` | MIT | [N233](#n233) _(same repository)_ |
+| `@react-native/normalize-colors@0.83.10` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/normalize-colors@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-native/virtualized-lists@0.83.6` | MIT | [N233](#n233) _(same repository)_ |
 | `@react-navigation/bottom-tabs@7.15.5` | MIT | [N213](#n213) |
@@ -386,7 +395,7 @@ text exists; ambiguous repositories stay in **Release review required**.
 | `babel-plugin-syntax-hermes-parser@0.32.1` | MIT | [N233](#n233) |
 | `babel-plugin-transform-flow-enums@0.0.2` | MIT | [N084](#n084) |
 | `babel-preset-current-node-syntax@1.2.0` | MIT | [N239](#n239) |
-| `babel-preset-expo@55.0.23` | MIT | **REVIEW REQUIRED** |
+| `babel-preset-expo@55.0.24` | MIT | **REVIEW REQUIRED** |
 | `babel-preset-jest@29.6.3` | MIT | [N233](#n233) |
 | `balanced-match@1.0.2` | MIT | [N178](#n178) |
 | `balanced-match@4.0.4` | MIT | [N227](#n227) |
@@ -463,37 +472,37 @@ text exists; ambiguous repositories stay in **Release review required**.
 | `esprima@4.0.1` | BSD-2-Clause | [N163](#n163) |
 | `etag@1.8.1` | MIT | [N183](#n183) |
 | `event-target-shim@5.0.1` | MIT | [N167](#n167) |
-| `expo-asset@55.0.17` | MIT | **REVIEW REQUIRED** |
-| `expo-constants@55.0.16` | MIT | **REVIEW REQUIRED** |
-| `expo-crypto@55.0.16` | MIT | **REVIEW REQUIRED** |
-| `expo-dev-client@55.0.36` | MIT | **REVIEW REQUIRED** |
-| `expo-dev-launcher@55.0.37` | MIT | **REVIEW REQUIRED** |
+| `expo-asset@55.0.18` | MIT | **REVIEW REQUIRED** |
+| `expo-constants@55.0.17` | MIT | **REVIEW REQUIRED** |
+| `expo-crypto@55.0.17` | MIT | **REVIEW REQUIRED** |
+| `expo-dev-client@55.0.37` | MIT | **REVIEW REQUIRED** |
+| `expo-dev-launcher@55.0.38` | MIT | **REVIEW REQUIRED** |
 | `expo-dev-menu-interface@55.0.2` | MIT | **REVIEW REQUIRED** |
-| `expo-dev-menu@55.0.31` | MIT | **REVIEW REQUIRED** |
-| `expo-document-picker@55.0.14` | MIT | **REVIEW REQUIRED** |
-| `expo-file-system@55.0.23` | MIT | **REVIEW REQUIRED** |
+| `expo-dev-menu@55.0.32` | MIT | **REVIEW REQUIRED** |
+| `expo-document-picker@55.0.15` | MIT | **REVIEW REQUIRED** |
+| `expo-file-system@55.0.24` | MIT | **REVIEW REQUIRED** |
 | `expo-font@55.0.8` | MIT | **REVIEW REQUIRED** |
 | `expo-glass-effect@55.0.11` | MIT | **REVIEW REQUIRED** |
 | `expo-image@55.0.11` | MIT | **REVIEW REQUIRED** |
 | `expo-json-utils@55.0.2` | MIT | **REVIEW REQUIRED** |
 | `expo-keep-awake@55.0.8` | MIT | **REVIEW REQUIRED** |
 | `expo-linking@55.0.16` | MIT | **REVIEW REQUIRED** |
-| `expo-localization@55.0.16` | MIT | **REVIEW REQUIRED** |
-| `expo-mail-composer@55.0.15` | MIT | **REVIEW REQUIRED** |
-| `expo-manifests@55.0.18` | MIT | **REVIEW REQUIRED** |
-| `expo-modules-autolinking@55.0.24` | MIT | **REVIEW REQUIRED** |
+| `expo-localization@55.0.17` | MIT | **REVIEW REQUIRED** |
+| `expo-mail-composer@55.0.16` | MIT | **REVIEW REQUIRED** |
+| `expo-manifests@55.0.19` | MIT | **REVIEW REQUIRED** |
+| `expo-modules-autolinking@55.0.25` | MIT | **REVIEW REQUIRED** |
 | `expo-modules-core@55.0.25` | MIT | **REVIEW REQUIRED** |
-| `expo-print@55.0.16` | MIT | **REVIEW REQUIRED** |
-| `expo-router@55.0.16` | MIT | [N212](#n212) _(bundled component notice only)_<br>**OWN LICENSE REVIEW REQUIRED** |
-| `expo-secure-store@55.0.15` | MIT | **REVIEW REQUIRED** |
+| `expo-print@55.0.17` | MIT | **REVIEW REQUIRED** |
+| `expo-router@55.0.17` | MIT | [N212](#n212) _(bundled component notice only)_<br>**OWN LICENSE REVIEW REQUIRED** |
+| `expo-secure-store@55.0.16` | MIT | **REVIEW REQUIRED** |
 | `expo-server@55.0.11` | MIT | **REVIEW REQUIRED** |
-| `expo-sharing@55.0.21` | MIT | **REVIEW REQUIRED** |
-| `expo-splash-screen@55.0.22` | MIT | **REVIEW REQUIRED** |
-| `expo-sqlite@55.0.17` | MIT | **REVIEW REQUIRED** |
+| `expo-sharing@55.0.22` | MIT | **REVIEW REQUIRED** |
+| `expo-splash-screen@55.0.23` | MIT | **REVIEW REQUIRED** |
+| `expo-sqlite@55.0.18` | MIT | **REVIEW REQUIRED** |
 | `expo-symbols@55.0.9` | MIT | **REVIEW REQUIRED** |
-| `expo-system-ui@55.0.19` | MIT | **REVIEW REQUIRED** |
+| `expo-system-ui@55.0.20` | MIT | **REVIEW REQUIRED** |
 | `expo-updates-interface@55.1.6` | MIT | **REVIEW REQUIRED** |
-| `expo@55.0.27` | MIT | **REVIEW REQUIRED** |
+| `expo@55.0.28` | MIT | **REVIEW REQUIRED** |
 | `exponential-backoff@3.1.3` | Apache-2.0 | [N264](#n264) |
 | `fast-deep-equal@3.1.3` | MIT | [N134](#n134) |
 | `fast-json-stable-stringify@2.1.0` | MIT | [N186](#n186) |
@@ -1263,7 +1272,8 @@ Bundled source files:
 - `node_modules/@babel/template/LICENSE`
 - `node_modules/@babel/traverse/LICENSE`
 - `node_modules/@babel/types/LICENSE`
-- `node_modules/@expo/json-file/node_modules/@babel/code-frame/LICENSE`
+- `node_modules/@expo/config-plugins/node_modules/@babel/code-frame/LICENSE`
+- `node_modules/@expo/metro-config/node_modules/@expo/json-file/node_modules/@babel/code-frame/LICENSE`
 - `node_modules/react-native-worklets/node_modules/@babel/plugin-transform-class-properties/LICENSE`
 - `node_modules/react-native-worklets/node_modules/@babel/plugin-transform-classes/LICENSE`
 - `node_modules/react-native-worklets/node_modules/@babel/plugin-transform-nullish-coalescing-operator/LICENSE`
@@ -1470,18 +1480,19 @@ SOFTWARE.
 
 SHA-256: `16feb932ce2ba7bc7712657bb28afe409eaa4334f9f05d0e1b7a5f12bf6132f4`
 
-Packages: `@expo/config-plugins@55.0.10`, `@expo/config@55.0.18`, `@expo/devtools@55.0.3`, `@expo/fingerprint@0.16.7`, `@expo/json-file@10.0.16`, `@expo/json-file@10.2.0`, `@expo/json-file@11.0.0`, `@expo/local-build-cache-provider@55.0.14`, `@expo/metro-config@55.0.24`, `@expo/package-manager@1.13.0`, `@expo/prebuild-config@55.0.19`
+Packages: `@expo/config-plugins@55.0.11`, `@expo/config@55.0.19`, `@expo/devtools@55.0.3`, `@expo/fingerprint@0.16.8`, `@expo/json-file@10.0.16`, `@expo/json-file@10.2.0`, `@expo/json-file@11.0.0`, `@expo/local-build-cache-provider@55.0.15`, `@expo/metro-config@55.0.25`, `@expo/package-manager@1.13.0`, `@expo/prebuild-config@55.0.20`
 
 Bundled source files:
 
 - `node_modules/@expo/config/LICENSE`
 - `node_modules/@expo/config-plugins/LICENSE`
-- `node_modules/@expo/config/node_modules/@expo/json-file/LICENSE`
+- `node_modules/@expo/config-plugins/node_modules/@expo/json-file/LICENSE`
 - `node_modules/@expo/devtools/LICENSE`
 - `node_modules/@expo/fingerprint/LICENSE`
 - `node_modules/@expo/json-file/LICENSE`
 - `node_modules/@expo/local-build-cache-provider/LICENSE`
 - `node_modules/@expo/metro-config/LICENSE`
+- `node_modules/@expo/metro-config/node_modules/@expo/json-file/LICENSE`
 - `node_modules/@expo/package-manager/LICENSE`
 - `node_modules/@expo/package-manager/node_modules/@expo/json-file/LICENSE`
 - `node_modules/@expo/prebuild-config/LICENSE`
@@ -3143,6 +3154,7 @@ Packages: `ws@7.5.11`
 
 Bundled source files:
 
+- `node_modules/@expo/cli/node_modules/@react-native/dev-middleware/node_modules/ws/LICENSE`
 - `node_modules/ws/LICENSE`
 
 ```text
@@ -3582,7 +3594,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 SHA-256: `49c5f9c7097c9a940ff663a54c27a4c60e379df6cc2b3052df0d37a09a85df93`
 
-Packages: `@expo/require-utils@55.0.5`, `@expo/schema-utils@55.0.4`
+Packages: `@expo/require-utils@55.0.6`, `@expo/schema-utils@55.0.5`
 
 Bundled source files:
 
@@ -3794,6 +3806,7 @@ Bundled source files:
 - `node_modules/@expo/fingerprint/node_modules/semver/LICENSE`
 - `node_modules/@expo/image-utils/node_modules/semver/LICENSE`
 - `node_modules/@expo/prebuild-config/node_modules/semver/LICENSE`
+- `node_modules/@react-native/babel-plugin-codegen/node_modules/minimatch/LICENSE`
 - `node_modules/@react-native/codegen/node_modules/minimatch/LICENSE`
 - `node_modules/@react-native/community-cli-plugin/node_modules/semver/LICENSE`
 - `node_modules/expo-router/node_modules/semver/LICENSE`
@@ -5261,6 +5274,7 @@ Packages: `glob@7.2.3`
 
 Bundled source files:
 
+- `node_modules/@react-native/babel-plugin-codegen/node_modules/glob/LICENSE`
 - `node_modules/@react-native/codegen/node_modules/glob/LICENSE`
 - `node_modules/react-native/node_modules/glob/LICENSE`
 - `node_modules/rimraf/node_modules/glob/LICENSE`
@@ -5526,6 +5540,7 @@ Packages: `brace-expansion@1.1.16`
 
 Bundled source files:
 
+- `node_modules/@react-native/babel-plugin-codegen/node_modules/brace-expansion/LICENSE`
 - `node_modules/@react-native/codegen/node_modules/brace-expansion/LICENSE`
 - `node_modules/react-native/node_modules/brace-expansion/LICENSE`
 - `node_modules/rimraf/node_modules/brace-expansion/LICENSE`
@@ -7037,7 +7052,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 SHA-256: `8dacb1e00ec1cf679e7987c87c9953ce6a4d96e7ef361dd04cd453643e9b3351`
 
-Packages: `@expo/config-types@55.0.5`
+Packages: `@expo/config-types@55.0.6`
 
 Bundled source files:
 
@@ -7826,12 +7841,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 SHA-256: `9d9cf7980a46628abcbcf88577ecaed2968b69f9123d6aaba6f9496ed3648c1a`
 
-Packages: `@expo/env@2.1.2`, `@expo/env@2.4.1`
+Packages: `@expo/env@2.1.3`
 
 Bundled source files:
 
 - `node_modules/@expo/env/LICENSE`
-- `node_modules/@expo/fingerprint/node_modules/@expo/env/LICENSE`
 
 ```text
 The MIT License (MIT)
@@ -7936,6 +7950,7 @@ Packages: `balanced-match@1.0.2`
 
 Bundled source files:
 
+- `node_modules/@react-native/babel-plugin-codegen/node_modules/balanced-match/LICENSE.md`
 - `node_modules/@react-native/codegen/node_modules/balanced-match/LICENSE.md`
 - `node_modules/react-native/node_modules/balanced-match/LICENSE.md`
 - `node_modules/rimraf/node_modules/balanced-match/LICENSE.md`
@@ -9250,10 +9265,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 SHA-256: `be635b6249bf2e3a9ab088d9be654960253291042824b62dfcf5e955625dc6fe`
 
-Packages: `@react-native/debugger-frontend@0.83.6`
+Packages: `@react-native/debugger-frontend@0.83.10`, `@react-native/debugger-frontend@0.83.6`
 
 Bundled source files:
 
+- `node_modules/@expo/cli/node_modules/@react-native/debugger-frontend/dist/third-party/LICENSE`
 - `node_modules/@react-native/debugger-frontend/dist/third-party/LICENSE`
 
 ```text
@@ -9480,7 +9496,7 @@ SOFTWARE.
 
 SHA-256: `c358ea82eed53098b2ee0913e1de8243c69d45862e11c48614db47fd5889d947`
 
-Packages: `expo-router@55.0.16`
+Packages: `expo-router@55.0.17`
 
 Bundled source files:
 
@@ -10275,8 +10291,8 @@ Packages: `mime-db@1.52.0`, `mime-db@1.54.0`
 
 Bundled source files:
 
-- `node_modules/metro/node_modules/mime-db/LICENSE`
 - `node_modules/mime-db/LICENSE`
+- `node_modules/mime-types/node_modules/mime-db/LICENSE`
 
 ```text
 (The MIT License)
@@ -10773,15 +10789,13 @@ Bundled source files:
 - `node_modules/@jest/schemas/LICENSE`
 - `node_modules/@jest/transform/LICENSE`
 - `node_modules/@jest/types/LICENSE`
+- `node_modules/@react-native/babel-preset/node_modules/babel-plugin-syntax-hermes-parser/LICENSE`
 - `node_modules/babel-jest/LICENSE`
 - `node_modules/babel-plugin-jest-hoist/LICENSE`
+- `node_modules/babel-plugin-syntax-hermes-parser/LICENSE`
+- `node_modules/babel-plugin-syntax-hermes-parser/node_modules/hermes-estree/LICENSE`
+- `node_modules/babel-plugin-syntax-hermes-parser/node_modules/hermes-parser/LICENSE`
 - `node_modules/babel-preset-jest/LICENSE`
-- `node_modules/expo/node_modules/@react-native/babel-preset/node_modules/babel-plugin-syntax-hermes-parser/LICENSE`
-- `node_modules/expo/node_modules/@react-native/babel-preset/node_modules/hermes-estree/LICENSE`
-- `node_modules/expo/node_modules/@react-native/babel-preset/node_modules/hermes-parser/LICENSE`
-- `node_modules/expo/node_modules/babel-plugin-syntax-hermes-parser/LICENSE`
-- `node_modules/expo/node_modules/hermes-estree/LICENSE`
-- `node_modules/expo/node_modules/hermes-parser/LICENSE`
 - `node_modules/hermes-estree/LICENSE`
 - `node_modules/hermes-parser/LICENSE`
 - `node_modules/jest-environment-node/LICENSE`
@@ -13073,7 +13087,7 @@ SOFTWARE.
 
 SHA-256: `fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4`
 
-Packages: `@expo/image-utils@0.8.14`, `@expo/osascript@2.7.0`
+Packages: `@expo/image-utils@0.8.15`, `@expo/osascript@2.7.0`
 
 Bundled source files:
 
