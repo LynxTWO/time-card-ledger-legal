@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support information for Time Card Ledger, published by Daniel Boyd.">
+  <title>Support — Time Card Ledger</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header>
+    <nav aria-label="Legal pages">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="../privacy/">Privacy</a></li>
+        <li><a aria-current="page" href="./">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <h1>Time Card Ledger support</h1>
+    <p class="lede">Public support: <a href="mailto:danielboyd.apps@gmail.com">danielboyd.apps@gmail.com</a></p>
+    <p>Time Card Ledger does not create a remote account. Support cannot view, recover, approve, or delete records remotely. App records are stored by the local installation unless the user exports them; an Apple backup or device transfer may retain a platform-managed copy according to system settings.</p>
+
+    <h2>Before contacting support</h2>
+    <p>In <strong>Settings</strong>, choose <strong>Export redacted diagnostics</strong>. The report contains app/platform versions, configuration categories, record counts, and workflow-state counts. It excludes names, email addresses, dates worked, punch times, notes, pay rates and totals, public keys, signatures, and private keys. Review the file before sending it.</p>
+    <p>Do not send a full JSON backup, timesheet submission, approval receipt, or pairing file unless support explicitly needs it and you understand what it contains. Never send a supervisor signing seed, store credential, password, or authentication code.</p>
+
+    <h2>Local data and deletion</h2>
+    <ul>
+      <li><strong>Reset onboarding</strong> removes app records, profile, pay rules, recipients, active clock state, supervisor trust and receipts, the native signing seed, and app-owned sensitive temporary files while preserving regional preferences such as language.</li>
+      <li><strong>Delete all local data</strong> removes the same installation-owned data and regional preferences.</li>
+      <li>Removing local data cannot recall files already shared or delete copies retained in an operating-system backup, mail app, cloud drive, employer system, or other destination.</li>
+      <li>If a deletion step fails, the app reports that cleanup did not fully complete. Reopen the app and verify before assuming the data is gone.</li>
+    </ul>
+
+    <h2>Offline signed approvals</h2>
+    <p>The supervisor creates a native-device signing identity and sends the employee a public pairing file. The employee imports it and compares the displayed fingerprint with the supervisor through a trusted channel. The employee exports the exact timesheet revision; the supervisor imports and reviews every signed field, explicitly confirms the review, signs an approval or rejection, and returns the receipt. The employee app accepts the receipt only if its signature, paired public key, period, revision, and timesheet content match.</p>
+    <p>Pairing is trust-on-first-use. A fingerprint self-check confirms only that a public key and identifier are internally consistent; it does not authenticate a person. The exchanged files are signed, not encrypted, so use an appropriate private transfer channel. A same-device manager decision is not authenticated identity.</p>
+    <p>If the supervisor signing device or seed is lost, create a new identity, re-pair explicitly, and compare the new fingerprint. Historical receipts remain tied to the public key that originally signed them. App-generated JSON backups can contain public receipts but do not contain the private signing seed or supervisor trust root.</p>
+
+    <h2>Sharing on Android</h2>
+    <p>A share-sheet temporary copy may remain for about 10 minutes so the receiving app can read it. Time Card Ledger prunes stale app-owned copies on a best-effort basis on a later launch after they are at least one hour old. Temporary document-picker copies are removed after import.</p>
+  </main>
+  <footer>Copyright 2026 Daniel Boyd. All rights reserved.</footer>
+</body>
+</html>

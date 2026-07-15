@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Time Card Ledger, published by Daniel Boyd.">
+  <title>Privacy policy — Time Card Ledger</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header>
+    <nav aria-label="Legal pages">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a aria-current="page" href="./">Privacy</a></li>
+        <li><a href="../support/">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <h1>Time Card Ledger privacy policy</h1>
+    <p class="meta"><strong>Effective:</strong> July 15, 2026</p>
+
+    <p>Time Card Ledger is published by Daniel Boyd. It does not require a remote account and does not operate an application server, advertising service, analytics service, or location tracker. It stores the profile, pay rules, time entries, notes, approvals, and sharing preferences entered by the user in the app's local device storage.</p>
+
+    <h2>Device storage and backups</h2>
+    <p>Android application-data backup is disabled. On Apple devices, app data may be included in an encrypted device or iCloud backup according to the user's Apple backup settings. Time Card Ledger therefore promises no app-operated server, not the absence of operating-system backup or device transfer.</p>
+
+    <h2>User-initiated sharing</h2>
+    <p>Data leaves Time Card Ledger when the user chooses an operating-system sharing action, such as a JSON backup, PDF, CSV, email draft, timesheet package, pairing package, or approval receipt. On Android, a share-sheet temporary copy may remain for about 10 minutes so the receiving app can read it. Stale app-owned copies are pruned on a best-effort basis on a later app launch after they are at least one hour old. Temporary document-picker copies are removed after import. The chosen destination, mail app, and operating-system share service are governed by their own privacy and retention practices.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Local records remain until the user edits them, deletes them, imports a replacement backup, uses <strong>Reset onboarding</strong> or <strong>Delete all local data</strong>, or removes the app. Both reset actions explicitly remove the supervisor signing seed and app-owned sensitive temporary files. Removing the app clears its active application container, but operating-system backups or device transfers may retain or restore copies.</p>
+    <p>On iOS, Keychain data can persist across uninstall and reinstall with the same bundle identifier, so the device-only signing seed may remain until operating-system cleanup; Time Card Ledger attempts to prune an orphaned seed on its next launch. Files already shared and operating-system backups are outside Time Card Ledger's control.</p>
+
+    <h2>Supervisor approvals</h2>
+    <p>A same-device manager decision is a convenience marker and is not verified identity. A receipt is described as signature verified against a paired key only after the app validates a paired supervisor signature against the exact timesheet revision. Pairing is trust-on-first-use and the fingerprint must be compared with the supervisor through a trusted channel. Any edit creates a new revision and invalidates that receipt for the current hours.</p>
+    <p>App-generated JSON backups do not include supervisor trust roots or private signing seeds. Importing a JSON backup into the same installation preserves the trust root already paired on that device. A new installation or device must pair the supervisor public key again and compare its fingerprint. Approval receipts may be included in an app-generated or platform backup.</p>
+
+    <h2>Pay estimates</h2>
+    <p>Pay totals are estimates based on user-entered rules. They are not payroll, tax, legal, or employment advice and should be compared with official employer records.</p>
+
+    <h2>Contact</h2>
+    <p>Email <a href="mailto:danielboyd.apps@gmail.com">danielboyd.apps@gmail.com</a> for public support or privacy questions.</p>
+  </main>
+  <footer>Copyright 2026 Daniel Boyd. All rights reserved.</footer>
+</body>
+</html>
