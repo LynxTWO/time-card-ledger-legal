@@ -18,7 +18,7 @@ generator and must be reviewed from the final iOS and Android dependency reports
 
 ## Generation summary
 
-- Lockfile SHA-256: `82f38eaf15b82963c94a52bba91cf9bbaa78ac898ff22c2c2be393b6dcec1d47`
+- Lockfile SHA-256: `d4973783e2d87111b3265776dc8d5567865fbbf8eea8bbe82ea21d2bc3230c70`
 - Installed production package locations traversed: 726
 - Unique production package name/version pairs: 666
 - Package name/version pairs with their own bundled notice text: 570
