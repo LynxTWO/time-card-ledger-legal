@@ -5,6 +5,7 @@ This public repository hosts the privacy policy and support information for
 
 - Privacy policy: <https://lynxtwo.github.io/time-card-ledger-legal/privacy/>
 - Support: <https://lynxtwo.github.io/time-card-ledger-legal/support/>
+- Third-party licenses: <https://lynxtwo.github.io/time-card-ledger-legal/licenses/>
 - Public support email: <danielboyd.apps@gmail.com>
 
 The repository intentionally contains only public legal/support content. The

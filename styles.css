@@ -137,6 +137,17 @@ code {
   overflow-wrap: anywhere;
 }
 
+.notice-frame {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  color-scheme: light dark;
+  display: block;
+  height: min(65rem, 72vh);
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
 footer {
   color: var(--muted);
   font-size: 0.85rem;
