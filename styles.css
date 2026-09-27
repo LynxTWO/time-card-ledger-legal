@@ -137,15 +137,94 @@ code {
   overflow-wrap: anywhere;
 }
 
-.notice-frame {
-  background: var(--background);
+/* Inventory layout changes presentation only; downloadable notices stay exact. */
+.notice-contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-block: 1.5rem;
+  padding-block: 1rem;
+  border-block: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.notice-inventory {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.notice-inventory h2,
+.notice-inventory h3 {
+  scroll-margin-top: 1rem;
+}
+
+.notice-inventory h3 {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.notice-table {
+  max-width: 100%;
+  max-height: 34rem;
+  overflow: auto;
+  margin-block: 1rem;
   border: 1px solid var(--border);
   border-radius: 0.5rem;
-  color-scheme: light dark;
-  display: block;
-  height: min(65rem, 72vh);
-  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.notice-table table {
   width: 100%;
+  border-collapse: collapse;
+  text-align: start;
+}
+
+.notice-table th,
+.notice-table td {
+  min-width: 9rem;
+  padding: 0.65rem 0.8rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.notice-table th {
+  position: sticky;
+  top: 0;
+  background: var(--background);
+}
+
+.license-text {
+  margin-block: 1rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--background);
+}
+
+.license-text summary {
+  min-height: 44px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  color: var(--link);
+}
+
+.license-text pre {
+  max-height: 34rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 0;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.notice-table:focus-visible,
+.license-text summary:focus-visible,
+.license-text pre:focus-visible {
+  outline: 0.2rem solid var(--focus);
+  outline-offset: 0.15rem;
 }
 
 footer {
