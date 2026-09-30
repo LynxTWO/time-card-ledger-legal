@@ -21,15 +21,17 @@
   </header>
   <main id="content">
     <h1>Time Card Ledger privacy policy</h1>
-    <p class="meta"><strong>Effective:</strong> July 15, 2026</p>
+    <p class="meta"><strong>Effective:</strong> September 30, 2026</p>
 
-    <p>Time Card Ledger is published by Daniel Boyd. It does not require a remote account and does not operate an application server, advertising service, analytics service, or location tracker. It stores the profile, pay rules, time entries, notes, approvals, and sharing preferences entered by the user in the app's local device storage.</p>
+    <p>Time Card Ledger is published by Daniel Boyd. Its offline timekeeping features do not require an online account. They store the profile, pay rules, time entries, notes, approvals, and sharing preferences entered by the user in local device storage. Optional Connected Submission is in testing and uses an online account and server services. The sections below describe offline timekeeping and file sharing; they are not a complete privacy notice for Connected Submission.</p>
 
     <h2>Device storage and backups</h2>
-    <p>Android application-data backup is disabled. On Apple devices, app data may be included in an encrypted device or iCloud backup according to the user's Apple backup settings. Time Card Ledger therefore promises no app-operated server, not the absence of operating-system backup or device transfer.</p>
+    <p>Android application-data backup is disabled. On Apple devices, app data may be included in an encrypted device or iCloud backup according to the user's Apple backup settings. Operating-system backups and device transfers are separate from the app's local storage.</p>
 
     <h2>User-initiated sharing</h2>
-    <p>Data leaves Time Card Ledger when the user chooses an operating-system sharing action, such as a JSON backup, PDF, CSV, email draft, timesheet package, pairing package, or approval receipt. On Android, a share-sheet temporary copy may remain for about 10 minutes so the receiving app can read it. Stale app-owned copies are pruned on a best-effort basis on a later app launch after they are at least one hour old. Temporary document-picker copies are removed after import. The chosen destination, mail app, and operating-system share service are governed by their own privacy and retention practices.</p>
+    <p>For offline features, data leaves Time Card Ledger when the user chooses an operating-system sharing action, such as a JSON backup, PDF, CSV, email draft, timesheet package, pairing package, or approval receipt. On Android, a share-sheet temporary copy may remain for about 10 minutes so the receiving app can read it. Stale app-owned copies are pruned on a best-effort basis on a later app launch after they are at least one hour old. Temporary document-picker copies are removed after import. The chosen destination, mail app, and operating-system share service are governed by their own privacy and retention practices.</p>
+
+    <p>In current test builds, timesheet and approval packages are encrypted for paired recipient devices as well as signed. Pairing files are signed but not encrypted. This package protection does not apply to ordinary PDF, CSV, or JSON backup exports; choose an appropriate private destination for those files.</p>
 
     <h2>Retention and deletion</h2>
     <p>Local records remain until the user edits them, deletes them, imports a replacement backup, uses <strong>Reset onboarding</strong> or <strong>Delete all local data</strong>, or removes the app. Both reset actions explicitly remove the supervisor signing seed and app-owned sensitive temporary files. Removing the app clears its active application container, but operating-system backups or device transfers may retain or restore copies.</p>
