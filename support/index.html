@@ -22,8 +22,11 @@
   <main id="content">
     <h1>Time Card Ledger support</h1>
     <p class="lede">Public support: <a href="mailto:danielboyd.apps@gmail.com">danielboyd.apps@gmail.com</a></p>
-    <p>Time Card Ledger does not create a remote account. Support cannot view, recover, approve, or delete records remotely. App records are stored by the local installation unless the user exports them; an Apple backup or device transfer may retain a platform-managed copy according to system settings.</p>
+    <p>Offline timekeeping does not require an online account. Optional Connected Submission testing uses a separate sign-in. This page covers offline records and file exchange; contact support for help with Connected testing. Support cannot recover local records from your device. An Apple backup or device transfer may retain a platform-managed copy according to system settings.</p>
     <p>Support email is processed by the mailbox provider and is used only to answer requests, investigate defects, prevent abuse, and meet applicable legal obligations. It is retained only as reasonably needed for those purposes. A sender may request deletion at the same address, subject to security, provider-backup, and legal retention limits. See the <a href="../privacy/">privacy policy</a> for details.</p>
+
+    <h2>Language and accessibility help</h2>
+    <p>See the <a href="../languages/">language guide</a> for app language settings, the upcoming language update, and how to report a wording or screen-reader issue.</p>
 
     <h2>Before contacting support</h2>
     <p>In <strong>Settings</strong>, choose <strong>Export redacted diagnostics</strong>. The report contains app/platform versions, configuration categories, record counts, and workflow-state counts. It excludes names, email addresses, dates worked, punch times, notes, pay rates and totals, public keys, signatures, and private keys. Review the file before sending it.</p>
@@ -39,7 +42,7 @@
 
     <h2>Offline signed approvals</h2>
     <p>The supervisor creates a native-device signing identity and sends the employee a public pairing file. The employee imports it and compares the displayed fingerprint with the supervisor through a trusted channel. The employee exports the exact timesheet revision; the supervisor imports and reviews every signed field, explicitly confirms the review, signs an approval or rejection, and returns the receipt. The employee app accepts the receipt only if its signature, paired public key, period, revision, and timesheet content match.</p>
-    <p>Pairing is trust-on-first-use. A fingerprint self-check confirms only that a public key and identifier are internally consistent; it does not authenticate a person. The exchanged files are signed, not encrypted, so use an appropriate private transfer channel. A same-device manager decision is not authenticated identity.</p>
+    <p>Pairing is trust-on-first-use. A fingerprint self-check confirms only that a public key and identifier are internally consistent; it does not authenticate a person. In current test builds, timesheet and approval packages are encrypted for paired recipient devices as well as signed. Pairing files are signed but not encrypted. Ordinary PDF, CSV, and JSON backup exports do not use this package protection. Use an appropriate private transfer channel for exported files. A same-device manager decision is not authenticated identity.</p>
     <p>If the supervisor signing device or seed is lost, create a new identity, re-pair explicitly, and compare the new fingerprint. Historical receipts remain tied to the public key that originally signed them. App-generated JSON backups can contain public receipts but do not contain the private signing seed or supervisor trust root.</p>
 
     <h2>Sharing on Android</h2>
